@@ -53,6 +53,7 @@ a {
 }
 
 .menu a:hover {
+  border-radius: 20px;
   background: var(--royal-blue-dark);
 }
 
@@ -243,18 +244,22 @@ a {
     position: relative;
     width: 100%;
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: space-between;
 }
 .content .text{
     position: relative;
     max-width: 600px;
-    margin-right: 20px;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 .content .text h2{
     text-align: center;
     color: #fff;
     font-size: 3em;
+    color: #ffa3bf;
     margin-bottom: 10px;
     line-height: 2.5em;
     font-weight: 700;
@@ -263,10 +268,11 @@ a {
 .content .text h2 span{
     font-size: 3.5em;
     color: #e51e2a;
+    text-align: center;
 }
 .content .text p{
     text-align: center;
-    color: #fff;
+    color: #ff8aad;
 }
 .content .text a{
     text-align: center;
@@ -282,5 +288,11 @@ a {
     transition: 0.3s ease-in-out;
 }
 .content .text a:hover{
+    
     transform: translateY(-10px);
+}
+
+/* titulo e descrição text */
+.title{
+  : #4B2369;
 }
